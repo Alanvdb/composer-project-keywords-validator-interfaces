@@ -1,0 +1,21 @@
+{
+    "name": "alanvdb/composer-project-keywords-validator-interfaces",
+    "description": "Interfaces for composer project keywords validator.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AlanVdb\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alanvdb",
+            "email": "alanvdb.coder@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "alanvdb/validator-interface": "^2.1"
+    }
+}
